@@ -19,7 +19,7 @@ To start the watching, run:
 grunt watch
 ```
 
-The `package.json` file contains only the name and version fields. Those are actually required.
+The `package.json` file contains only the version and name fields. Those are actually required.
 
 ```json
 {
