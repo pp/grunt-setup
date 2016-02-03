@@ -5,7 +5,7 @@ module.exports = function( grunt ) {
       options: {
         atBegin: true
       },
-      files: '../static/css/sass/**/*.scss',
+      files: '../static/sass/**/*.scss',
       tasks: ['sass', 'cssmin']
     },
     sass: require( './custom_modules/sass' ).task,
